@@ -1,0 +1,29 @@
+ul li {
+    list-style: none;
+}
+
+table {
+    padding: 10px;
+    min-width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    min-height: 160px;
+
+}
+
+th {
+    font-weight: 600;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+th,
+tr {
+    border-bottom: 2px solid blueviolet;
+}
+
+
+img {
+    width: 100px;
+    height: 100px;
+}

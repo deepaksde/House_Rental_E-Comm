@@ -1,0 +1,46 @@
+<div class="product-list">
+    <div class="product-content">
+        <table>
+            <thead>
+                <tr>
+                    <th>Image</th>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Color</th>
+                    <th>Category</th>
+                    <th>Description</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let product of Products; index as i">
+                    <!-- <td>{{i + 1}}</td> -->
+                    <td><img src="{{product.image}}" alt="" srcset=""></td>
+                    <td>{{product.name}}</td>
+                    <td>{{product.price}}</td>
+                    <td>{{product.color}}</td>
+                    <td>{{product.category}}</td>
+                    <td>{{product.description}}</td>
+                    <td>
+                        <button (click)="deleteProduct(product.id)" class="form-button btn btn-danger"><fa-icon
+                                [icon]="trashIcon"></fa-icon></button>
+                        <button routerLink="/seller-update-product/{{product.id}}"
+                            class="form-button btn btn-primary"><fa-icon [icon]="editIcon"></fa-icon></button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="product-item">
+            <ul *ngFor="let product of Products; index as i">
+                <li>
+                    <img src="{{product.image}}" alt="product-image">
+                    <p>Product Name : {{product.name}}</p>
+                    <p>Price : {{product.price}}</p>
+                    <p>Color : {{product.color}}</p>
+                    <p>Category : {{product.category}}</p>
+                    <p>Description : {{product.description}}</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

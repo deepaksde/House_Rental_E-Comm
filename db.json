@@ -1,0 +1,122 @@
+{
+  "seller": [
+    {
+      "name": "Deepak",
+      "password": "abc@123",
+      "email": "d@seller.com",
+      "id": 1
+    },
+    {
+      "name": "Test",
+      "password": "abc@123",
+      "email": "test@seller.com",
+      "id": 2
+    },
+    {
+      "name": "John",
+      "password": "abc@123",
+      "email": "john@seller.com",
+      "id": 3
+    },
+    {
+      "name": "Sam",
+      "password": "abc@123",
+      "email": "sam@seller.com",
+      "id": 4
+    },
+    {
+      "name": "Clara",
+      "password": "abc@123",
+      "email": "clara@seller.com",
+      "id": 5
+    },
+    {
+      "name": "Peter",
+      "password": "abc@123",
+      "email": "peter@seller.com",
+      "id": 6
+    },
+    {
+      "name": "Chris",
+      "password": "abc@123",
+      "email": "chris@seller.com",
+      "id": 7
+    },
+    {
+      "name": "Ram",
+      "password": "abc@123",
+      "email": "ram@seller.com",
+      "id": 8
+    },
+    {
+      "name": "Sandy",
+      "password": "abc@123",
+      "email": "sandy@seller.com",
+      "id": 9
+    },
+    {
+      "name": "auth",
+      "password": "abc@123",
+      "email": "auth@seller.com",
+      "id": 10
+    },
+    {
+      "email": "sam",
+      "password": "abc@123",
+      "id": 11
+    },
+    {
+      "name": "Steve",
+      "password": "abc@123",
+      "email": "steve@seller.com",
+      "id": 12
+    },
+    {
+      "name": "trinity",
+      "password": "abc2123",
+      "email": "trinity@seller.com",
+      "id": 13
+    },
+    {
+      "name": "Mosh",
+      "password": "abc@123",
+      "email": "mosh@seller.com",
+      "id": 14
+    },
+    {
+      "name": "David",
+      "password": "abc@123",
+      "email": "david@seller.com",
+      "id": 15
+    }
+  ],
+  "products": [
+    {
+      "name": "Iphone 14 Pro",
+      "price": "120000",
+      "color": "Sky Blue",
+      "category": "Smartphone",
+      "image": "https://m.media-amazon.com/images/I/61YSNhAb00L._SX679_.jpg",
+      "description": "This is Iphone 14 Pro with not so unique features.",
+      "id": 1
+    },
+    {
+      "name": "Samsung S21",
+      "price": "35000",
+      "color": "OliveBlue",
+      "category": "Smartphones",
+      "image": "https://cdn.shopify.com/s/files/1/0598/7919/4823/products/91EA08YkYgL._SS640_288x.jpg",
+      "description": "This is a new smartphone from samsung. This phone got some amazing features.",
+      "id": 2
+    },
+    {
+      "name": "Realme 10 Pro",
+      "price": "20000",
+      "color": "Black",
+      "category": "Smartphone",
+      "image": "https://m.media-amazon.com/images/I/61eHj6VXGgL._SX679_.jpg",
+      "description": "This is Realme 10 Pro.",
+      "id": 3
+    }
+  ]
+}

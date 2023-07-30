@@ -1,0 +1,15 @@
+.sign-up,
+.login {
+    text-align: center;
+    color: blueviolet;
+    margin-bottom: 50px;
+    margin: auto;
+    width: 80%;
+}
+
+.form-toggle {
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+    color: blueviolet;
+}
